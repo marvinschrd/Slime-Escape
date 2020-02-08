@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D body;
     Vector2 direction;
-    float jumpHeight;
+    [SerializeField]float jumpHeight;
     bool canJump = false;
-    float speed;
+    [SerializeField]float speed =3;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,12 +30,36 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         direction = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
+
+        jump();
         switch (state)
         {
             case State.IDLE:
                 break;
             case State.MOVING:
                 break;
+        }
+    }
+    void jump()
+    {
+            if(Input.GetKeyDown("w")&& canJump)
+            {
+                body.velocity = new Vector2(body.velocity.x, jumpHeight);
+            }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag== "ground")
+        {
+            Debug.Log("canJump");
+            canJump = true;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "ground")
+        {
+            canJump = false;
         }
     }
 }

@@ -52,7 +52,7 @@ public class ScaleChange : MonoBehaviour
             case State.SHRINKING_BACK:
                 Debug.Log("shrinking");
                 Shrinking();
-                if(transform.localScale.x <=1)
+                if(transform.localScale.x <=1.1f)
                 {
                     state = State.NORMAL_SIZE;
                 }
