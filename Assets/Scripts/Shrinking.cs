@@ -18,7 +18,7 @@ public class Shrinking : MonoBehaviour
     enum State
     {
         NORMAL_SIZE,
-       SHRINKING,
+        SHRINKING,
         GROWING_BACK
     }
 
