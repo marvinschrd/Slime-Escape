@@ -8,11 +8,12 @@ public class ScaleChange : MonoBehaviour
     Vector3 normalScale = new Vector3(1f, 1f, 1f);
     bool grow = false;
     float grownTimer;
+    Rigidbody2D body;
      [SerializeField]float grownTime;
     // Start is called before the first frame update
     void Start()
     {
-        
+        body = GetComponent<Rigidbody2D>();
     }
     enum State
     {
@@ -28,6 +29,7 @@ public class ScaleChange : MonoBehaviour
         switch(state)
         {
             case State.NORMAL_SIZE:
+                body.mass = 1;
                 Debug.Log("normal");
                 grownTimer = grownTime;
                 if (Input.GetKeyDown("m"))
@@ -44,6 +46,7 @@ public class ScaleChange : MonoBehaviour
                     grownTimer -= Time.deltaTime;
                     grow = false;
                 }
+                body.mass = 10;
                 if(grownTimer<=0)
                 {
                     state = State.SHRINKING_BACK;
