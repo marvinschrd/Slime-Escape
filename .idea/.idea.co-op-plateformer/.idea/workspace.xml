@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shrinking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shrinking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +37,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScaleChange.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="67">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <marker date="1581211194606" expanded="false" signature="6:78" ph="..." />
@@ -93,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shrinking.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="135">
               <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <marker date="1581211428836" expanded="false" signature="6:78" ph="..." />
@@ -202,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581211334085</updated>
-      <workItem from="1581211339415" duration="1568000" />
+      <workItem from="1581211339415" duration="2346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1568000" />
+    <option name="totallyTimeSpent" value="2346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,7 +212,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1113" y="141" width="1123" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -268,27 +259,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shrinking.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <marker date="1581211428836" expanded="false" signature="6:78" ph="..." />
-            <marker date="1581211428836" expanded="true" signature="118:1882" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="388:409" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="425:498" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="594:1627" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="623:1621" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="791:906" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="1082:1205" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="1243:1327" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="1505:1588" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="1645:1756" ph="{...}" />
-            <marker date="1581211428836" expanded="true" signature="1772:1880" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController2.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -333,9 +303,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shrinking.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <marker date="1581211428836" expanded="false" signature="6:78" ph="..." />
+            <marker date="1581211428836" expanded="true" signature="118:1882" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="388:409" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="425:498" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="594:1627" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="623:1621" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="791:906" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="1082:1205" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="1243:1327" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="1505:1588" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="1645:1756" ph="{...}" />
+            <marker date="1581211428836" expanded="true" signature="1772:1880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScaleChange.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="67">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <marker date="1581211194606" expanded="false" signature="6:78" ph="..." />
