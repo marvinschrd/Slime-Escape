@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     float horizontalSpeed;
     bool facingRight = false;
     bool facingLeft = true;
+
+   [SerializeField] ParticleSystem particle;
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +60,14 @@ public class PlayerController : MonoBehaviour
             facingLeft = false;
             anim.transform.Rotate(0, 180, 0);
         }
+        if (canJump)
+        {
+            particle.gameObject.SetActive(true);
+        }
+        if (!canJump)
+        {
+            particle.gameObject.SetActive(false);
+        }
     }
     void jump()
     {
@@ -81,6 +91,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "ground")
         {
             canJump = false;
+           
         }
     }
 }

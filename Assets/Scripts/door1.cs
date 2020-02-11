@@ -6,6 +6,7 @@ public class door1 : MonoBehaviour
 {
     [SerializeField]GameObject upPosition;
     Vector3 initialPosition;
+    Vector3 movePosition;
     bool activated = false;
     bool closed = false;
     // Start is called before the first frame update
@@ -13,6 +14,7 @@ public class door1 : MonoBehaviour
     void Start()
     {
         initialPosition = transform.position;
+        movePosition = upPosition.transform.position;
     }
 
     enum State
@@ -41,7 +43,7 @@ public class door1 : MonoBehaviour
     }
      void Open()
     {
-        transform.position = Vector3.Lerp(transform.position, upPosition.transform.position, Time.deltaTime);  
+        transform.position = Vector3.Lerp(transform.position, movePosition, Time.deltaTime);  
     }
     public void Activate()
     {
