@@ -29,6 +29,21 @@ TextureImporter:
   - first:
       213: -924970255796957001
     second: donjon_tileset_8
+  - first:
+      213: 1579177850807204543
+    second: donjon_tileset_9
+  - first:
+      213: -7039588252037540164
+    second: donjon_tileset_10
+  - first:
+      213: 7677455235013899053
+    second: donjon_tileset_11
+  - first:
+      213: 603357278712889831
+    second: donjon_tileset_12
+  - first:
+      213: 3103587335454902793
+    second: donjon_tileset_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -300,6 +315,132 @@ TextureImporter:
       bones: []
       spriteID: 5cb61be1727b945478826842a6ebb067
       internalID: -2043408841173148305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f697a7e2987eba042954dfed368d2847
+      internalID: 5984525032429287374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8fec485fbc9143bb5fc07cd08ff93
+      internalID: 1579177850807204543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c109febfa1a7cb943acb59fd608915b4
+      internalID: -7039588252037540164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4906c83512c40459f01b294aaef9a5
+      internalID: 7677455235013899053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09ac56e23ac2ac4585f3f582fb263a0
+      internalID: 603357278712889831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66826d2382264cf49ba9bf54bda798db
+      internalID: 3103587335454902793
       vertices: []
       indices: 
       edges: []
