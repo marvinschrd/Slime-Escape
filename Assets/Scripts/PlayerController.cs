@@ -9,10 +9,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]float jumpHeight;
     bool canJump = false;
     [SerializeField]float speed =3;
+
+    Animator anim;
+    float horizontalSpeed;
+    bool facingRight = false;
+    bool facingLeft = true;
     // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     enum State
@@ -30,7 +36,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         direction = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
-
+        horizontalSpeed = Input.GetAxis("Horizontal");
+        anim.SetFloat("speed", Mathf.Abs(horizontalSpeed));
         jump();
         switch (state)
         {
@@ -39,20 +46,34 @@ public class PlayerController : MonoBehaviour
             case State.MOVING:
                 break;
         }
+        if (horizontalSpeed < 0 && !facingLeft)
+        {
+            facingLeft = true;
+            facingRight = false;
+            anim.transform.Rotate(0, 180, 0);
+        }
+        if (horizontalSpeed > 0 && !facingRight)
+        {
+            facingRight = true;
+            facingLeft = false;
+            anim.transform.Rotate(0, 180, 0);
+        }
     }
     void jump()
     {
             if(Input.GetKeyDown("w")&& canJump)
             {
                 body.velocity = new Vector2(body.velocity.x, jumpHeight);
-            }
+            anim.SetBool("isJumping", true);
+        }
     }
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.gameObject.tag== "ground")
+        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "Player")
         {
             Debug.Log("canJump");
             canJump = true;
+            anim.SetBool("isJumping", false);
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
