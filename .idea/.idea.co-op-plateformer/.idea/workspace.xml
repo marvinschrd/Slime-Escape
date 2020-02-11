@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="" />
+    <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/door1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="495">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <marker date="1581378578664" expanded="false" signature="6:78" ph="..." />
                 <marker date="1581378578664" expanded="true" signature="114:1324" ph="{...}" />
@@ -94,6 +96,20 @@
                 <marker date="1581378578664" expanded="true" signature="1040:1083" ph="{...}" />
                 <marker date="1581378578664" expanded="true" signature="1101:1322" ph="{...}" />
                 <marker date="1581378578664" expanded="true" signature="1264:1316" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <marker date="1581431906188" expanded="true" signature="6:92" ph="..." />
+                <marker date="1581431906188" expanded="true" signature="169:538" ph="{...}" />
+                <marker date="1581431906188" expanded="true" signature="358:516" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -162,6 +178,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/door1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/lever.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScaleChange.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -169,6 +186,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Shrinking.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       </list>
     </option>
   </component>
@@ -238,12 +256,12 @@
       <option name="presentableId" value="Default" />
       <updated>1581211334085</updated>
       <workItem from="1581211339415" duration="2346000" />
-      <workItem from="1581430673720" duration="445000" />
+      <workItem from="1581430673720" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2791000" />
+    <option name="totallyTimeSpent" value="3579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/door1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="495">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <marker date="1581378578664" expanded="false" signature="6:78" ph="..." />
             <marker date="1581378578664" expanded="true" signature="114:1324" ph="{...}" />
@@ -424,6 +442,18 @@
             <marker date="1581378578664" expanded="true" signature="1040:1083" ph="{...}" />
             <marker date="1581378578664" expanded="true" signature="1101:1322" ph="{...}" />
             <marker date="1581378578664" expanded="true" signature="1264:1316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1581431906188" expanded="true" signature="6:92" ph="..." />
+            <marker date="1581431906188" expanded="true" signature="169:538" ph="{...}" />
+            <marker date="1581431906188" expanded="true" signature="358:516" ph="{...}" />
           </folding>
         </state>
       </provider>
