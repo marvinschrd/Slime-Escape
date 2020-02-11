@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557858589}
-  m_LocalRotation: {x: -0, y: -0, z: -0.69436467, w: 0.7196233}
-  m_LocalPosition: {x: 0.5, y: -0.34, z: 0}
+  m_LocalRotation: {x: -0.036787253, y: 0.012996551, z: -0.6939456, w: 0.71896964}
+  m_LocalPosition: {x: 0.5, y: -0.3399999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6105547094215978794}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -87.953}
+  m_LocalEulerAnglesHint: {x: -1.9980001, y: 4.0020003, z: -88.04}
 --- !u!198 &557858592
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ ParticleSystem:
       m_RotationOrder: 4
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
-  scalingMode: 1
+  scalingMode: 0
   randomSeed: 0
   InitialModule:
     serializedVersion: 3
@@ -4893,6 +4893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpHeight: 8
   speed: 3
+  particle: {fileID: 557858592}
 --- !u!50 &6105547094215978798
 Rigidbody2D:
   serializedVersion: 4

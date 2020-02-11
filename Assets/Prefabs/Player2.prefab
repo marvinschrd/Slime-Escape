@@ -4893,6 +4893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpHeight: 8
   speed: 3
+  particle: {fileID: 1502963870}
 --- !u!50 &8814409110252933842
 Rigidbody2D:
   serializedVersion: 4
