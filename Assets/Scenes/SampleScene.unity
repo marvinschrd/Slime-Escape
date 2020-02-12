@@ -535,7 +535,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.59, y: 0}
-  m_ConnectedAnchor: {x: -0.30102292, y: -0.22900005}
+  m_ConnectedAnchor: {x: -0.30102298, y: -0.229}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2180,7 +2180,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.154185, y: -0.10610819}
+  m_Offset: {x: 1.6039011, y: -0.10610819}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2191,7 +2191,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.308584, y: 1.4341269}
+  m_Size: {x: 8.409153, y: 1.4341269}
   m_EdgeRadius: 0
 --- !u!1 &828914537
 GameObject:
@@ -3065,7 +3065,7 @@ GameObject:
   - component: {fileID: 1195604905}
   m_Layer: 0
   m_Name: donjon_tileset_2 (1)
-  m_TagString: ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6550,12 +6550,12 @@ PrefabInstance:
     - target: {fileID: 6105547094215978794, guid: 8a3bcef5c7eb8334698a17b0fcecaa53,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.66
+      value: -6.22
       objectReference: {fileID: 0}
     - target: {fileID: 6105547094215978794, guid: 8a3bcef5c7eb8334698a17b0fcecaa53,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.98
+      value: -2.78
       objectReference: {fileID: 0}
     - target: {fileID: 6105547094215978794, guid: 8a3bcef5c7eb8334698a17b0fcecaa53,
         type: 3}
@@ -6601,14 +6601,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 50042104, guid: 8a3bcef5c7eb8334698a17b0fcecaa53, type: 3}
-      propertyPath: m_Volume
-      value: 0.254
-      objectReference: {fileID: 0}
-    - target: {fileID: 50042105, guid: 8a3bcef5c7eb8334698a17b0fcecaa53, type: 3}
-      propertyPath: m_Volume
-      value: 0.254
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a3bcef5c7eb8334698a17b0fcecaa53, type: 3}
@@ -6696,12 +6688,12 @@ PrefabInstance:
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: -2.29
       objectReference: {fileID: 0}
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.92
+      value: -1.996
       objectReference: {fileID: 0}
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
@@ -6751,17 +6743,17 @@ PrefabInstance:
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.5393624
+      value: 4.348709
       objectReference: {fileID: 0}
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.9712727
+      value: 2.8464792
       objectReference: {fileID: 0}
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.4490404
+      value: 5.2201805
       objectReference: {fileID: 0}
     - target: {fileID: 8418070008480108869, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}

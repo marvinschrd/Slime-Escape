@@ -5038,6 +5038,11 @@ PrefabInstance:
       propertyPath: upPosition
       value: 
       objectReference: {fileID: 1450609314}
+    - target: {fileID: 5747204430441658464, guid: 11830126dc9b373438084d65b2c411b3,
+        type: 3}
+      propertyPath: levelWinning
+      value: 
+      objectReference: {fileID: 1364645813}
     - target: {fileID: 5747204430441658476, guid: 11830126dc9b373438084d65b2c411b3,
         type: 3}
       propertyPath: m_LocalPosition.x
