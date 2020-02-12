@@ -18,6 +18,7 @@ public class lever : MonoBehaviour
         if(canActivate&&Input.GetKeyDown("e"))
         {
             Activate();
+            
         }
     }
     private void OnTriggerStay2D(Collider2D collision)
