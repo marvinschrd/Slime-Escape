@@ -9,6 +9,9 @@ public class Shrinking : MonoBehaviour
     bool shrink = false;
     float shrinkTimer;
     [SerializeField] float shrinkTime;
+
+    [SerializeField] AudioSource shrinkSound;
+    [SerializeField] AudioSource growSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +37,7 @@ public class Shrinking : MonoBehaviour
                 shrinkTimer = shrinkTime;
                 if (Input.GetKeyDown("n"))
                 {
+                    shrinkSound.Play();
                    shrink = true;
                     state = State.SHRINKING;
                 }
@@ -48,6 +52,7 @@ public class Shrinking : MonoBehaviour
                 }
                 if (shrinkTimer <= 0)
                 {
+                    growSound.Play();
                     state = State.GROWING_BACK;
                 }
                 break;

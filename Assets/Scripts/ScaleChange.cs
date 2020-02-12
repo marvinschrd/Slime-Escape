@@ -10,6 +10,8 @@ public class ScaleChange : MonoBehaviour
     float grownTimer;
     Rigidbody2D body;
      [SerializeField]float grownTime;
+    [SerializeField] AudioSource growSound;
+    [SerializeField] AudioSource shrinkSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,7 @@ public class ScaleChange : MonoBehaviour
                 grownTimer = grownTime;
                 if (Input.GetKeyDown("m"))
                 {
+                    growSound.Play();
                     grow = true;
                 state = State.GROWING;
                 }
@@ -49,6 +52,7 @@ public class ScaleChange : MonoBehaviour
                 body.mass = 10;
                 if(grownTimer<=0)
                 {
+                    shrinkSound.Play();
                     state = State.SHRINKING_BACK;
                 }
                 break;

@@ -18,6 +18,8 @@ public class PlayerController2 : MonoBehaviour
 
     [SerializeField] ParticleSystem particle;
 
+    [SerializeField] AudioSource jumpSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -79,6 +81,7 @@ public class PlayerController2 : MonoBehaviour
     {
         if (Input.GetKeyDown("up") && canJump)
         {
+            jumpSound.Play();
             body.velocity = new Vector2(body.velocity.x, jumpHeight);
             anim.SetBool("isJumping", true);
         }
