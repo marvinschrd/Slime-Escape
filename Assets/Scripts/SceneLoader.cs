@@ -11,6 +11,7 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] String nextLevel;
     [SerializeField] String currentLevel;
     [SerializeField] private SpriteRenderer _spriteRenderer;
+    [SerializeField] private GameObject panelWin;
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag=="Player")
@@ -31,7 +32,7 @@ public class SceneLoader : MonoBehaviour
         //}
        // SceneManager.UnloadSceneAsync(currentLevel);
         _spriteRenderer.color=Color.red;
-        
+        panelWin.SetActive(true);
     }
     
     
