@@ -34,10 +34,6 @@ public class door1 : MonoBehaviour
 
                 break;
             case State.OPENING:
-                if(gameObject.tag=="finalDoor")
-                {
-                    levelWinning.Play();
-                }
                 Open();
                 break;
             case State.CLOSING:
@@ -51,7 +47,10 @@ public class door1 : MonoBehaviour
     }
     public void Activate()
     {
-
+        if (gameObject.tag == "finalDoor")
+        {
+            levelWinning.Play();
+        }
         state = State.OPENING;
     }
     public void Closing()
