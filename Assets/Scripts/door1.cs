@@ -10,7 +10,7 @@ public class door1 : MonoBehaviour
     bool activated = false;
     bool closed = false;
     // Start is called before the first frame update
-    
+    [SerializeField] AudioSource levelWinning;
     void Start()
     {
         initialPosition = transform.position;
@@ -34,6 +34,10 @@ public class door1 : MonoBehaviour
 
                 break;
             case State.OPENING:
+                if(gameObject.tag=="finalDoor")
+                {
+                    levelWinning.Play();
+                }
                 Open();
                 break;
             case State.CLOSING:
@@ -47,6 +51,7 @@ public class door1 : MonoBehaviour
     }
     public void Activate()
     {
+
         state = State.OPENING;
     }
     public void Closing()
