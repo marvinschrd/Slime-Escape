@@ -35,7 +35,7 @@ public class Shrinking : MonoBehaviour
             case State.NORMAL_SIZE:
                 Debug.Log("normal");
                 shrinkTimer = shrinkTime;
-                if (Input.GetKeyDown("n"))
+                if (Input.GetKeyDown(KeyCode.RightShift))
                 {
                     shrinkSound.Play();
                    shrink = true;

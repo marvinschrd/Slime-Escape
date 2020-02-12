@@ -18,7 +18,7 @@ public class lever : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canActivate&&Input.GetKeyDown("e"))
+        if(canActivate&&Input.GetKeyDown(KeyCode.LeftControl) || canActivate&&Input.GetKeyDown(KeyCode.RightControl))
         {
             oppositeLever.enabled = true;
             initialLever.enabled = false;

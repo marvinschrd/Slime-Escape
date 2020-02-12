@@ -34,7 +34,7 @@ public class ScaleChange : MonoBehaviour
                 body.mass = 1;
                 Debug.Log("normal");
                 grownTimer = grownTime;
-                if (Input.GetKeyDown("m"))
+                if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
                     growSound.Play();
                     grow = true;
