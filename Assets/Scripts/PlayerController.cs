@@ -6,14 +6,19 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D body;
     Vector2 direction;
+
     [SerializeField]float jumpHeight;
     bool canJump = false;
+    float jumpTime = 0;
+    [SerializeField] float jumpTimer = 0;
+    bool isJumping = false;
+
     [SerializeField]float speed =3;
 
     Animator anim;
     float horizontalSpeed;
-    bool facingRight = false;
-    bool facingLeft = true;
+    bool facingRight = true;
+    bool facingLeft = false;
 
    [SerializeField] ParticleSystem particle;
 
@@ -42,7 +47,7 @@ public class PlayerController : MonoBehaviour
         direction = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
         horizontalSpeed = Input.GetAxis("Horizontal");
         anim.SetFloat("speed", Mathf.Abs(horizontalSpeed));
-        jump();
+      //  jump();
         switch (state)
         {
             case State.IDLE:
@@ -50,13 +55,13 @@ public class PlayerController : MonoBehaviour
             case State.MOVING:
                 break;
         }
-        if (horizontalSpeed < 0 && !facingLeft)
+        if (horizontalSpeed > 0 && !facingLeft)
         {
             facingLeft = true;
             facingRight = false;
             anim.transform.Rotate(0, 180, 0);
         }
-        if (horizontalSpeed > 0 && !facingRight)
+        if (horizontalSpeed < 0 && !facingRight)
         {
             facingRight = true;
             facingLeft = false;
@@ -76,8 +81,30 @@ public class PlayerController : MonoBehaviour
             if(Input.GetKeyDown("w")&& canJump)
             {
             jumpSound.Play();
-                body.velocity = new Vector2(body.velocity.x, jumpHeight);
             anim.SetBool("isJumping", true);
+            isJumping = true;
+            jumpTime = jumpTimer;
+               // body.velocity = new Vector2(body.velocity.x, jumpHeight);
+            body.velocity = Vector2.up * jumpHeight;
+            }
+            if(Input.GetKey("w")==isJumping)
+            {
+                 if (jumpTime > 0)
+                 {
+                    //body.velocity = new Vector2(body.velocity.x, jumpHeight);
+                body.velocity = Vector2.up * jumpHeight;
+
+                jumpTime -= Time.deltaTime;
+                 }
+                 else
+                 {
+                    isJumping = false;
+                 }
+            }
+            if(Input.GetKeyUp("w"))
+        {
+            Debug.Log("nojump");
+            isJumping = false;
         }
     }
     private void OnTriggerStay2D(Collider2D collision)

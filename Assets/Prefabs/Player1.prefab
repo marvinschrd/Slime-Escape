@@ -4766,6 +4766,7 @@ GameObject:
   - component: {fileID: 6105547094215978799}
   - component: {fileID: 6105547094215978792}
   - component: {fileID: 6105547094215978804}
+  - component: {fileID: 3160936164854687474}
   - component: {fileID: 6105547094215978798}
   - component: {fileID: 6105547094215978795}
   - component: {fileID: 6105547094215978805}
@@ -4897,9 +4898,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 8
+  jumpTimer: 0
   speed: 3
   particle: {fileID: 557858592}
   jumpSound: {fileID: 50042103}
+--- !u!114 &3160936164854687474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105547094215978797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124c22da6d31b564386f25bd9969a7d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  jumpForce: 8
+  feetPos: {fileID: 6105547094215978794}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  checkRadius: 1
+  jumpTime: 0.3
 --- !u!50 &6105547094215978798
 Rigidbody2D:
   serializedVersion: 4
