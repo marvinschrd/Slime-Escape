@@ -12,6 +12,8 @@ public class Shrinking : MonoBehaviour
 
     [SerializeField] AudioSource shrinkSound;
     [SerializeField] AudioSource growSound;
+
+    bool isSmall = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +43,7 @@ public class Shrinking : MonoBehaviour
                    shrink = true;
                     state = State.SHRINKING;
                 }
+                isSmall = false;
                 break;
             case State.SHRINKING:
                 Debug.Log("shrinking");
@@ -50,6 +53,7 @@ public class Shrinking : MonoBehaviour
                     shrinkTimer -= Time.deltaTime;
                     shrink = false;
                 }
+                isSmall = true;
                 if (shrinkTimer <= 0)
                 {
                     growSound.Play();
@@ -65,6 +69,11 @@ public class Shrinking : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    public bool ShowState()
+    {
+        return isSmall;
     }
     void Shrink()
     {

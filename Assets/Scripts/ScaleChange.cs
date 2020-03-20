@@ -12,6 +12,8 @@ public class ScaleChange : MonoBehaviour
      [SerializeField]float grownTime;
     [SerializeField] AudioSource growSound;
     [SerializeField] AudioSource shrinkSound;
+
+    bool isBig = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,7 @@ public class ScaleChange : MonoBehaviour
                     grow = true;
                 state = State.GROWING;
                 }
+                isBig = false;
                 break;
             case State.GROWING:
                 Debug.Log("growing");
@@ -49,6 +52,7 @@ public class ScaleChange : MonoBehaviour
                     grownTimer -= Time.deltaTime;
                     grow = false;
                 }
+                isBig = true;
                 body.mass = 10;
                 if(grownTimer<=0)
                 {
@@ -65,6 +69,11 @@ public class ScaleChange : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    public bool ShowState()
+    {
+        return isBig;
     }
    void Growing()
     {
