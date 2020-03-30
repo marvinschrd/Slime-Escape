@@ -13,11 +13,14 @@ public class breakingPlatform : MonoBehaviour
     // Start is called before the first frame update
 
     BoxCollider2D collider;
-    GameObject platform;
+   // GameObject platform;
+    SpriteRenderer sprite;
     Animator anim;
     void Start()
     {
-        platform = gameObject;
+        // platform = gameObject;
+        collider = gameObject.GetComponent<BoxCollider2D>();
+        sprite = gameObject.GetComponent<SpriteRenderer>();
         anim = gameObject.GetComponent<Animator>();
     }
 
@@ -36,24 +39,29 @@ public class breakingPlatform : MonoBehaviour
         switch(state)
         {
             case State.NORMAL:
+
+                // platform.SetActive(true);
+                collider.enabled = true;
+                sprite.enabled = true;
                 breakingTimer = breakingTime;
                 CheckLoad();
-                platform.SetActive(true);
                 break;
             case State.BREAKING:
                 anim.SetBool("goingToBreak", true);
-                //DisablePlatform();
                 state = State.INVISIBLE;
                 break;
             case State.INVISIBLE:
                 breakingTimer -= Time.deltaTime;
+                Debug.Log(breakingTimer);
                 if(breakingTimer<=0)
                 {
+                    Debug.Log("setToFalse");
                     anim.SetBool("goingToBreak", false);
                     state = State.NORMAL;
                 }
                 break;
         }
+        Debug.Log(state);
     }
 
     void CheckLoad()
@@ -74,7 +82,9 @@ public class breakingPlatform : MonoBehaviour
 
     void DisablePlatform()
     {
-        platform.SetActive(false);
+        // platform.SetActive(false);
+        collider.enabled = false;
+        sprite.enabled = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

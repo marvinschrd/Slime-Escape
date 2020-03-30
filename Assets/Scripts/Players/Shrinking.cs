@@ -35,7 +35,7 @@ public class Shrinking : MonoBehaviour
         switch (state)
         {
             case State.NORMAL_SIZE:
-                Debug.Log("normal");
+               // Debug.Log("normal");
                 shrinkTimer = shrinkTime;
                 if (Input.GetKeyDown(KeyCode.RightShift))
                 {
