@@ -124,31 +124,31 @@ TextureImporter:
     second: slime spritesheet calciumtrice_39
   - first:
       213: 6476083683548252174
-    second: slime spritesheet calciumtrice_40
+    second: p2death1
   - first:
       213: -6508673918119840946
-    second: slime spritesheet calciumtrice_41
+    second: p2death2
   - first:
       213: 1680110172612147870
-    second: slime spritesheet calciumtrice_42
+    second: p2death3
   - first:
       213: -2885403222738686329
-    second: slime spritesheet calciumtrice_43
+    second: p2death4
   - first:
       213: -6661596386292468045
-    second: slime spritesheet calciumtrice_44
+    second: p2death5
   - first:
       213: -2416640054307648100
-    second: slime spritesheet calciumtrice_45
+    second: p2death6
   - first:
       213: -8403567663110890302
-    second: slime spritesheet calciumtrice_46
+    second: p2death7
   - first:
       213: -3434113518478287657
-    second: slime spritesheet calciumtrice_47
+    second: p2death8
   - first:
       213: 2268157305755936634
-    second: slime spritesheet calciumtrice_48
+    second: p2death9
   - first:
       213: -4019387158076956437
     second: Idle1
@@ -271,31 +271,31 @@ TextureImporter:
     second: slime spritesheet calciumtrice_88
   - first:
       213: 4704168339413278040
-    second: slime spritesheet calciumtrice_89
+    second: p1death
   - first:
       213: -8131887933148074040
-    second: slime spritesheet calciumtrice_90
+    second: p1death2
   - first:
       213: 4841814001332616136
-    second: slime spritesheet calciumtrice_91
+    second: p1death3
   - first:
       213: 8551309985037121728
-    second: slime spritesheet calciumtrice_92
+    second: p1death4
   - first:
       213: -7957411905188996007
-    second: slime spritesheet calciumtrice_93
+    second: p1death5
   - first:
       213: -4386433001875919060
-    second: slime spritesheet calciumtrice_94
+    second: p1death6
   - first:
       213: 2672881519755685299
-    second: slime spritesheet calciumtrice_95
+    second: p1death7
   - first:
       213: -5813019646645899391
-    second: slime spritesheet calciumtrice_96
+    second: p1death8
   - first:
       213: -4538155170611899879
-    second: slime spritesheet calciumtrice_97
+    second: p1death9
   - first:
       213: -538685587998047535
     second: slime spritesheet calciumtrice_98
@@ -590,6 +590,12 @@ TextureImporter:
   - first:
       213: 5186449463905222979
     second: slime spritesheet calciumtrice_195
+  - first:
+      213: 3041645871906798994
+    second: p1death10
+  - first:
+      213: 4554615159444639793
+    second: p2death10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1538,7 +1544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_40
+      name: p2death1
       rect:
         serializedVersion: 2
         x: 10
@@ -1559,7 +1565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_41
+      name: p2death2
       rect:
         serializedVersion: 2
         x: 42
@@ -1580,7 +1586,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_42
+      name: p2death3
       rect:
         serializedVersion: 2
         x: 74
@@ -1601,7 +1607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_43
+      name: p2death4
       rect:
         serializedVersion: 2
         x: 106
@@ -1622,13 +1628,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_44
+      name: p2death5
       rect:
         serializedVersion: 2
         x: 138
         y: 480
         width: 12
-        height: 8
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1643,13 +1649,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_45
+      name: p2death6
       rect:
         serializedVersion: 2
         x: 170
         y: 480
         width: 12
-        height: 7
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1664,13 +1670,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_46
+      name: p2death7
       rect:
         serializedVersion: 2
         x: 202
         y: 480
         width: 12
-        height: 6
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1685,13 +1691,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_47
+      name: p2death8
       rect:
         serializedVersion: 2
         x: 234
         y: 480
         width: 12
-        height: 5
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1706,13 +1712,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_48
+      name: p2death9
       rect:
         serializedVersion: 2
         x: 266
         y: 480
-        width: 45
-        height: 4
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2567,7 +2573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_89
+      name: p1death
       rect:
         serializedVersion: 2
         x: 10
@@ -2588,7 +2594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_90
+      name: p1death2
       rect:
         serializedVersion: 2
         x: 42
@@ -2609,7 +2615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_91
+      name: p1death3
       rect:
         serializedVersion: 2
         x: 74
@@ -2630,7 +2636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_92
+      name: p1death4
       rect:
         serializedVersion: 2
         x: 106
@@ -2651,13 +2657,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_93
+      name: p1death5
       rect:
         serializedVersion: 2
         x: 138
         y: 320
         width: 12
-        height: 8
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2672,13 +2678,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_94
+      name: p1death6
       rect:
         serializedVersion: 2
         x: 170
         y: 320
-        width: 12
-        height: 7
+        width: 13
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2693,13 +2699,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_95
+      name: p1death7
       rect:
         serializedVersion: 2
         x: 202
         y: 320
-        width: 12
-        height: 6
+        width: 11
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2714,13 +2720,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_96
+      name: p1death8
       rect:
         serializedVersion: 2
         x: 234
         y: 320
         width: 12
-        height: 5
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2735,13 +2741,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime spritesheet calciumtrice_97
+      name: p1death9
       rect:
         serializedVersion: 2
         x: 266
         y: 320
-        width: 45
-        height: 4
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4809,6 +4815,48 @@ TextureImporter:
       bones: []
       spriteID: c8b61ad35c6415a4d81e9faff0943a83
       internalID: 5186449463905222979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1death10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 320
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2683346abba97644babeabb31488eddb
+      internalID: 3041645871906798994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p2death10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 479
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a575256559bd64fa5ddf782d55dde1
+      internalID: 4554615159444639793
       vertices: []
       indices: 
       edges: []
