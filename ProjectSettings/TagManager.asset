@@ -7,6 +7,7 @@ TagManager:
   - ground
   - Player2
   - finalDoor
+  - trap
   layers:
   - Default
   - TransparentFX

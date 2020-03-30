@@ -35,10 +35,7 @@ public class SceneLoader : MonoBehaviour
         panelWin.SetActive(true);
     }
     
-    public void DeathReload()
-    {
-        SceneManager.LoadScene(currentLevel);
-    }
+
     
     
 }
