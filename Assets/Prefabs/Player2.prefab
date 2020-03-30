@@ -4767,6 +4767,7 @@ GameObject:
   - component: {fileID: 8814409110252933840}
   - component: {fileID: 8814409110252933843}
   - component: {fileID: 5317781831186266510}
+  - component: {fileID: 3547100349880375291}
   - component: {fileID: 8814409110252933842}
   - component: {fileID: 8814409110252933853}
   - component: {fileID: 8814409110252933852}
@@ -4921,6 +4922,18 @@ MonoBehaviour:
     m_Bits: 1024
   checkRadius: 1
   jumpTime: 0.3
+--- !u!114 &3547100349880375291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8814409110252933855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f5b933cfc3f2b4592687a95031de3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &8814409110252933842
 Rigidbody2D:
   serializedVersion: 4
