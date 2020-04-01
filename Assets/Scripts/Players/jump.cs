@@ -10,10 +10,12 @@ public class jump : MonoBehaviour
    [SerializeField] float speed;
     [SerializeField] float jumpForce;
     private float moveInput;
-
+    
     private bool isGrounded;
+    private bool isWalled;
     [SerializeField] Transform feetPos;
     [SerializeField] LayerMask whatIsGround;
+    [SerializeField] LayerMask whatIsWall;
     [SerializeField] float checkRadius;
 
     private float jumpTimeCounter;
@@ -29,8 +31,8 @@ public class jump : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
-
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.W))
+        isWalled = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsWall);
+        if (isGrounded == true && Input.GetKeyDown(KeyCode.W)||isWalled == true && Input.GetKeyDown(KeyCode.W))
         {
             rb.velocity = Vector2.up * jumpForce;
             jumpTimeCounter = jumpTime;
