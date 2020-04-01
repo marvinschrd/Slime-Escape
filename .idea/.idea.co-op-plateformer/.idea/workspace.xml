@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png.meta" afterDir="false" />
-    </list>
+    <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Players/Health.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="705">
@@ -100,6 +97,22 @@
                 <marker date="1585707611735" expanded="true" signature="855:896" ph="{...}" />
                 <marker date="1585707611735" expanded="true" signature="955:1052" ph="{...}" />
                 <marker date="1585707611735" expanded="true" signature="1005:1046" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/objects/ArrowDispenser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <marker date="1585714548211" expanded="false" signature="6:78" ph="..." />
+                <marker date="1585714548211" expanded="true" signature="123:530" ph="{...}" />
+                <marker date="1585714548211" expanded="true" signature="243:293" ph="{...}" />
+                <marker date="1585714548211" expanded="true" signature="351:372" ph="{...}" />
+                <marker date="1585714548211" expanded="true" signature="390:528" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -184,6 +197,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Players/jump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Players/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/objects/ArrowDispenser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -195,6 +209,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScaleChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Players/jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Players/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/objects/ArrowDispenser.cs" />
       </list>
     </option>
   </component>
@@ -289,10 +304,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1385000" />
+    <option name="totallyTimeSpent" value="1645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,6 +457,20 @@
             <marker date="1585707611735" expanded="true" signature="855:896" ph="{...}" />
             <marker date="1585707611735" expanded="true" signature="955:1052" ph="{...}" />
             <marker date="1585707611735" expanded="true" signature="1005:1046" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/objects/ArrowDispenser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1585714548211" expanded="false" signature="6:78" ph="..." />
+            <marker date="1585714548211" expanded="true" signature="123:530" ph="{...}" />
+            <marker date="1585714548211" expanded="true" signature="243:293" ph="{...}" />
+            <marker date="1585714548211" expanded="true" signature="351:372" ph="{...}" />
+            <marker date="1585714548211" expanded="true" signature="390:528" ph="{...}" />
           </folding>
         </state>
       </provider>
