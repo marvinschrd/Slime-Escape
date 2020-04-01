@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.co-op-plateformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.co-op-plateformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Players/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Players/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Players/jump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Players/jump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/donjon_tileset.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Players/jump.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
-              <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
               <folding>
                 <marker date="1585707426424" expanded="false" signature="6:78" ph="..." />
                 <marker date="1585707426424" expanded="true" signature="113:1577" ph="{...}" />
@@ -199,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="305" />
     <option name="width" value="1123" />
     <option name="height" value="1050" />
@@ -290,10 +289,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1210000" />
+    <option name="totallyTimeSpent" value="1385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -382,7 +381,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Players/jump.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
           <folding>
             <marker date="1585707426424" expanded="false" signature="6:78" ph="..." />
             <marker date="1585707426424" expanded="true" signature="113:1577" ph="{...}" />

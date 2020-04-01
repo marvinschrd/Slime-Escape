@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: 3103587335454902793
     second: donjon_tileset_13
+  - first:
+      213: -6278595775439205485
+    second: donjon_tileset_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -441,6 +444,27 @@ TextureImporter:
       bones: []
       spriteID: 66826d2382264cf49ba9bf54bda798db
       internalID: 3103587335454902793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donjon_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6cab584e1196140a62ef8fb599bac6
+      internalID: -6278595775439205485
       vertices: []
       indices: 
       edges: []
