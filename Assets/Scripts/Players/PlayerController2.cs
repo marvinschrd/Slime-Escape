@@ -44,7 +44,7 @@ public class PlayerController2 : MonoBehaviour
 
     void Update()
     {
-        direction = new Vector2(Input.GetAxisRaw("HorizontalPlayer2") * speed, body.velocity.y);
+        direction = new Vector2(Input.GetAxis("HorizontalPlayer2") * speed, body.velocity.y);
         horizontalSpeed = Input.GetAxis("HorizontalPlayer2");
         anim.SetFloat("speed", Mathf.Abs(horizontalSpeed));
        // jump();
