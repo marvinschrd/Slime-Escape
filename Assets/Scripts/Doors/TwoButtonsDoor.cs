@@ -75,22 +75,31 @@ public class TwoButtonsDoor : MonoBehaviour
     void CheckButtons()
     {
         Debug.Log(buttonsPressed);
-        if (buttonsPressed == 4)
+        if (fisrtButton&&seconButton)
         {
             Activate();
         }
-        if(buttonsPressed <4)
+        else
         {
             Closing();
         }
     }
 
-    public void ButtonPressed()
+    public void Button1Pressed()
     {
-        buttonsPressed++;
+        fisrtButton = true;
     }
-    public void ButtonUnPressed()
+    public void Button2Pressed()
     {
-        buttonsPressed--;
+        seconButton = true; ;
+    }
+
+    public void Button1Unpressed()
+    {
+        fisrtButton = false;
+    }
+    public void Button2Unpressed()
+    {
+        seconButton = false;
     }
 }

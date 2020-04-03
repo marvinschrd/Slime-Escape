@@ -4922,6 +4922,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1024
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 0
   checkRadius: 1
   jumpTime: 0.3
 --- !u!114 &3547100349880375291
@@ -5110,7 +5113,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9847f9be89df05d4ebd4d9fafef33a67, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.47
   m_Pitch: 1
   Loop: 0
   Mute: 0

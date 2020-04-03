@@ -19,27 +19,58 @@ public class Button : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
+        //if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Player2" || collision.gameObject.tag == "Block")
+        //{
+        //    if (gameObject.tag == "Button")
+        //    {
+        //        Debug.Log("button");
+        //        door.Activate();
+        //    }
+        //    if (gameObject.tag == "TwoButton")
+        //    {
+        //        twoButtonDoor.ButtonPressed();
+        //    }
+        //}
         if (gameObject.tag == "Button")
         {
             Debug.Log("button");
             door.Activate();
         }
-        if(gameObject.tag == "TwoButton")
+        if (gameObject.tag == "Button1")
         {
-            twoButtonDoor.ButtonPressed();
+            twoButtonDoor.Button1Pressed();
+        }
+        if (gameObject.tag == "Button2")
+        {
+            twoButtonDoor.Button2Pressed();
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        //if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Player2" || collision.gameObject.tag == "Block")
+        //{
+        //    if (gameObject.tag == "Button")
+        //    {
+        //        door.Closing();
+        //    }
+        //    if (gameObject.tag == "TwoButton")
+        //    {
+        //        twoButtonDoor.ButtonUnPressed();
+        //    }
+        //}
         if (gameObject.tag == "Button")
         {
             door.Closing();
         }
-        if (gameObject.tag == "TwoButton")
+        if (gameObject.tag == "Button1")
         {
-            twoButtonDoor.ButtonUnPressed();
+            twoButtonDoor.Button1Unpressed();
+        }
+        if (gameObject.tag == "Button2")
+        {
+            twoButtonDoor.Button2Unpressed();
         }
     }
 }
