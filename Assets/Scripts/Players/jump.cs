@@ -32,24 +32,62 @@ public class jump : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
         isWalled = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsWall);
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.W)||isWalled == true && Input.GetKeyDown(KeyCode.W))
-        {
-            rb.velocity = Vector2.up * jumpForce;
-            jumpTimeCounter = jumpTime;
-            isJumping = true;
-        }
 
-        if (Input.GetKey(KeyCode.W) && isJumping == true)
+        if (gameObject.tag == "Player")
         {
-            if (jumpTimeCounter > 0)
+            if (isGrounded == true && Input.GetKeyDown(KeyCode.W) || isWalled == true && Input.GetKeyDown(KeyCode.W))
             {
                 rb.velocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
-           // Debug.Log(jumpTimeCounter);
+                jumpTimeCounter = jumpTime;
+                isJumping = true;
             }
-            else
+        }
+
+        if(gameObject.tag == "Player2")
+        {
+            if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) || isWalled == true && Input.GetKeyDown(KeyCode.UpArrow))
             {
-                isJumping = false;
+                rb.velocity = Vector2.up * jumpForce;
+                jumpTimeCounter = jumpTime;
+                isJumping = true;
+            }
+        }
+
+
+
+        if (gameObject.tag == "Player")
+        {
+
+            if (Input.GetKey(KeyCode.W) && isJumping == true)
+            {
+                if (jumpTimeCounter > 0)
+                {
+                    rb.velocity = Vector2.up * jumpForce;
+                    jumpTimeCounter -= Time.deltaTime;
+                    // Debug.Log(jumpTimeCounter);
+                }
+                else
+                {
+                    isJumping = false;
+                }
+            }
+        }
+
+        if (gameObject.tag == "Player2")
+        {
+
+            if (Input.GetKey(KeyCode.UpArrow) && isJumping == true)
+            {
+                if (jumpTimeCounter > 0)
+                {
+                    rb.velocity = Vector2.up * jumpForce;
+                    jumpTimeCounter -= Time.deltaTime;
+                    // Debug.Log(jumpTimeCounter);
+                }
+                else
+                {
+                    isJumping = false;
+                }
             }
         }
 
