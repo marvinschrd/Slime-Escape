@@ -4925,8 +4925,12 @@ MonoBehaviour:
   whatIsWall:
     serializedVersion: 2
     m_Bits: 0
-  checkRadius: 1
+  whatIsDoor:
+    serializedVersion: 2
+    m_Bits: 512
+  checkRadius: 0.8
   jumpTime: 0.3
+  jumpSound: {fileID: 1389731751159934003}
 --- !u!114 &3547100349880375291
 MonoBehaviour:
   m_ObjectHideFlags: 0

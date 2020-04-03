@@ -12,6 +12,13 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject panelMainMenu;
     [SerializeField] String reloadScene;
     [SerializeField] String mainMenuScene;
+
+    Scene currentScene;
+    private void Start()
+    {
+        currentScene = SceneManager.GetActiveScene();
+        reloadScene = currentScene.name;
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

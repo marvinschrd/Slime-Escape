@@ -560,7 +560,7 @@ PrefabInstance:
     - target: {fileID: 9059628203635275514, guid: 3d19c9a8bd13ea44cb1489a38cc61b98,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9059628203635275512, guid: 3d19c9a8bd13ea44cb1489a38cc61b98,
         type: 3}
@@ -600,7 +600,7 @@ PrefabInstance:
     - target: {fileID: 9059628203635275512, guid: 3d19c9a8bd13ea44cb1489a38cc61b98,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9059628203635275512, guid: 3d19c9a8bd13ea44cb1489a38cc61b98,
         type: 3}
@@ -1109,6 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365162517}
   - component: {fileID: 365162516}
+  - component: {fileID: 365162518}
   m_Layer: 0
   m_Name: donjon_tileset_10
   m_TagString: Untagged
@@ -1180,6 +1181,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &365162518
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365162515}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.17845297}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0666667, y: 0.6}
+    newSize: {x: 1.0517385, y: 2.7443595}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0666667, y: 2.81281}
+  m_EdgeRadius: 0
 --- !u!1 &371421432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,7 +1224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &371421433
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2276,7 +2303,7 @@ PrefabInstance:
     - target: {fileID: 5747204430441658476, guid: 11830126dc9b373438084d65b2c411b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5747204430441658476, guid: 11830126dc9b373438084d65b2c411b3,
         type: 3}
@@ -3127,7 +3154,7 @@ PrefabInstance:
     - target: {fileID: 1891349329277878732, guid: 4df435a70ff29c54caae0948f83905d0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1891349329277878732, guid: 4df435a70ff29c54caae0948f83905d0,
         type: 3}
@@ -5545,7 +5572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2129476332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5978,7 +6005,7 @@ PrefabInstance:
     - target: {fileID: 6105547094215978794, guid: 8a3bcef5c7eb8334698a17b0fcecaa53,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6105547094215978794, guid: 8a3bcef5c7eb8334698a17b0fcecaa53,
         type: 3}
@@ -6052,7 +6079,7 @@ PrefabInstance:
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8418070008480108866, guid: cba79fdacc7eb864ab8c81586b8de86b,
         type: 3}
@@ -6276,7 +6303,7 @@ PrefabInstance:
     - target: {fileID: 8814409110252933847, guid: 9e2f1ac28532662489b7de94a6f497f2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8814409110252933847, guid: 9e2f1ac28532662489b7de94a6f497f2,
         type: 3}

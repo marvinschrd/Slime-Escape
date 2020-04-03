@@ -55,7 +55,10 @@ public class TwoButtonsDoor : MonoBehaviour
     {
         if (gameObject.tag == "finalDoor")
         {
-            levelWinning.Play();
+            if (levelWinning != null)
+            {
+                levelWinning.Play();
+            }
         }
         state = State.OPENING;
     }
