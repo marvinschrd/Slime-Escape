@@ -5,6 +5,11 @@ using UnityEngine;
 public class ArrowDispenser : MonoBehaviour
 {
 
+    [SerializeField] private bool up;
+    [SerializeField] private bool down;
+    [SerializeField] private bool left;
+    [SerializeField] private bool right;
+
     [SerializeField] private GameObject arrow;
     // Start is called before the first frame update
     void Start()
