@@ -42,7 +42,7 @@ public class jump : MonoBehaviour
 
         if (gameObject.tag == "Player")
         {
-            if (isGrounded == true && Input.GetKeyDown(KeyCode.W) || isWalled == true && Input.GetKeyDown(KeyCode.W))
+            if (isGrounded == true && Input.GetKeyDown(KeyCode.W) || isWalled == true && Input.GetKeyDown(KeyCode.W)|| isDoored && Input.GetKeyDown(KeyCode.W))
             {
                 jumpSound.Play();
                 anim.SetBool("isJumping", true);
@@ -54,7 +54,7 @@ public class jump : MonoBehaviour
 
         if(gameObject.tag == "Player2")
         {
-            if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) || isWalled == true && Input.GetKeyDown(KeyCode.UpArrow))
+            if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) || isWalled == true && Input.GetKeyDown(KeyCode.UpArrow)||isDoored && Input.GetKeyDown(KeyCode.UpArrow))
             {
                 jumpSound.Play();
 
@@ -64,8 +64,25 @@ public class jump : MonoBehaviour
                 isJumping = true;
             }
         }
+        if (gameObject.tag == "Player")
+        {
+            if (Input.GetKeyUp(KeyCode.W))
+            {
+                isJumping = false;
+                anim.SetBool("isJumping", false);
 
+            }
+        }
 
+        if (gameObject.tag == "Player2")
+        {
+            if (Input.GetKeyUp(KeyCode.UpArrow))
+            {
+                isJumping = false;
+                anim.SetBool("isJumping", false);
+
+            }
+        }
 
         if (gameObject.tag == "Player")
         {
@@ -103,12 +120,6 @@ public class jump : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            isJumping = false;
-            anim.SetBool("isJumping", false);
-
-        }
     }
 }
 
