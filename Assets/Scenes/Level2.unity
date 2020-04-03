@@ -906,6 +906,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11830126dc9b373438084d65b2c411b3, type: 3}
+--- !u!82 &297033312 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 476215650151966435, guid: 960796fa78735bc47995a09f574c3e06,
+    type: 3}
+  m_PrefabInstance: {fileID: 1074750721737582359}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &359921823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5671,6 +5677,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.3513113
       objectReference: {fileID: 0}
+    - target: {fileID: 1074750721628537164, guid: 960796fa78735bc47995a09f574c3e06,
+        type: 3}
+      propertyPath: levelWinning
+      value: 
+      objectReference: {fileID: 297033312}
     - target: {fileID: 1074750720692774020, guid: 960796fa78735bc47995a09f574c3e06,
         type: 3}
       propertyPath: m_Layer
