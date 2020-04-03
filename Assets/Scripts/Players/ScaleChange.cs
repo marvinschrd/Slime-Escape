@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class ScaleChange : MonoBehaviour
 {
+   
     Vector3 growingScale = new Vector3(3.0f, 3.0f, 3.0f);
     Vector3 normalScale = new Vector3(1f, 1f, 1f);
     bool grow = false;
     float grownTimer;
     Rigidbody2D body;
+    [SerializeField] float normalMass;
+    [SerializeField] float bigMass;
      [SerializeField]float grownTime;
     [SerializeField] AudioSource growSound;
     [SerializeField] AudioSource shrinkSound;
@@ -33,7 +36,7 @@ public class ScaleChange : MonoBehaviour
         switch(state)
         {
             case State.NORMAL_SIZE:
-                body.mass = 1;
+                body.mass = normalMass;
                 Debug.Log("normal");
                 grownTimer = grownTime;
                 if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -53,7 +56,7 @@ public class ScaleChange : MonoBehaviour
                     grow = false;
                 }
                 isBig = true;
-                body.mass = 10;
+                body.mass = bigMass;
                 if(grownTimer<=0)
                 {
                     shrinkSound.Play();

@@ -4883,6 +4883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b28fadee52b9445962885d97a6316c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalMass: 1
+  smalMass: 0.5
   shrinkTime: 5
   shrinkSound: {fileID: 8239346365105134987}
   growSound: {fileID: 2369622447878749844}
