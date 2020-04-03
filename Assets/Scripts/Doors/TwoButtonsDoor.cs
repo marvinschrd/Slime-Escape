@@ -2,13 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class door1 : MonoBehaviour
+public class TwoButtonsDoor : MonoBehaviour
 {
-    [SerializeField]GameObject upPosition;
+    [SerializeField] GameObject upPosition;
     Vector3 initialPosition;
     Vector3 movePosition;
     bool activated = false;
     bool closed = false;
+
+    bool fisrtButton = false;
+    bool seconButton = false;
+
+    int buttonsPressed = 0;
+
     // Start is called before the first frame update
     [SerializeField] AudioSource levelWinning;
     void Start()
@@ -27,8 +33,8 @@ public class door1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        switch(state)
+        CheckButtons();
+        switch (state)
         {
             case State.IDLE:
 
@@ -41,11 +47,11 @@ public class door1 : MonoBehaviour
                 break;
         }
     }
-     void Open()
+    void Open()
     {
-        transform.position = Vector3.Lerp(transform.position, movePosition, Time.deltaTime);  
+        transform.position = Vector3.Lerp(transform.position, movePosition, Time.deltaTime);
     }
-    public void Activate()
+    void Activate()
     {
         if (gameObject.tag == "finalDoor")
         {
@@ -53,16 +59,38 @@ public class door1 : MonoBehaviour
         }
         state = State.OPENING;
     }
-    public void Closing()
+    void Closing()
     {
         state = State.CLOSING;
     }
-    void close ()
+    void close()
     {
         transform.position = Vector3.Lerp(transform.position, initialPosition, Time.deltaTime);
         if (transform.position.y - initialPosition.y < 0.1f)
         {
             state = State.IDLE;
         }
+    }
+
+    void CheckButtons()
+    {
+        Debug.Log(buttonsPressed);
+        if (buttonsPressed == 4)
+        {
+            Activate();
+        }
+        if(buttonsPressed <4)
+        {
+            Closing();
+        }
+    }
+
+    public void ButtonPressed()
+    {
+        buttonsPressed++;
+    }
+    public void ButtonUnPressed()
+    {
+        buttonsPressed--;
     }
 }

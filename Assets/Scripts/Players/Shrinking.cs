@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Shrinking : MonoBehaviour
 {
+    Rigidbody2D body;
+   [SerializeField] float normalMass;
+   [SerializeField] float smalMass;
     Vector3 shrinkingScale = new Vector3(0.3f, 0.3f, 0.3f);
     Vector3 normalScale = new Vector3(1f, 1f, 1f);
     bool shrink = false;
@@ -17,7 +20,7 @@ public class Shrinking : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        body = GetComponent<Rigidbody2D>();
     }
 
     enum State
@@ -43,6 +46,7 @@ public class Shrinking : MonoBehaviour
                    shrink = true;
                     state = State.SHRINKING;
                 }
+                body.mass = normalMass;
                 isSmall = false;
                 break;
             case State.SHRINKING:
@@ -53,6 +57,7 @@ public class Shrinking : MonoBehaviour
                     shrinkTimer -= Time.deltaTime;
                     shrink = false;
                 }
+                body.mass = smalMass;
                 isSmall = true;
                 if (shrinkTimer <= 0)
                 {

@@ -4883,6 +4883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e0e733db3c9a3e4dacaa79b6e9cc04c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalMass: 1
+  bigMass: 10
   grownTime: 5
   growSound: {fileID: 50042105}
   shrinkSound: {fileID: 50042104}
@@ -4899,7 +4901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 8
-  jumpTimer: 0
+  jumpTimer: 0.8
   speed: 3
   particle: {fileID: 557858592}
   jumpSound: {fileID: 50042103}
