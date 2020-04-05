@@ -7,7 +7,7 @@ public class Button : MonoBehaviour
     [SerializeField] door1 door;
     [SerializeField] TwoButtonsDoor twoButtonDoor;
     SpriteRenderer sprite;
-
+    private int i = 0;
     bool isPressed = false;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,15 @@ public class Button : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player1" || other.tag == "Player2" || other.tag == "Box")
+        {
+            GetDown();
+        }
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         //if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Player2" || collision.gameObject.tag == "Block")
@@ -34,6 +43,7 @@ public class Button : MonoBehaviour
         //        twoButtonDoor.ButtonPressed();
         //    }
         //}
+        
         if (gameObject.tag == "Button")
         {
             sprite.color = Color.red;
@@ -66,6 +76,11 @@ public class Button : MonoBehaviour
         //        twoButtonDoor.ButtonUnPressed();
         //    }
         //}
+        if (collision.tag == "Player1" || collision.tag == "Player2" || collision.tag == "Box")
+        {
+            GetUp();
+        }
+        
         if (gameObject.tag == "Button")
         {
             sprite.color = Color.white;
@@ -83,6 +98,27 @@ public class Button : MonoBehaviour
             sprite.color = Color.white;
 
             twoButtonDoor.Button2Unpressed();
+        }
+        
+    }
+
+    void GetUp()
+    {
+        Debug.Log("Im getting up");
+        transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
+        if (i > 0)
+        {
+            i--;
+            GetUp();
+        }
+    }
+    void GetDown()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y - 0.05f, transform.position.z);
+        if (i <= 5)
+        {
+            i++;
+            GetDown();
         }
     }
 }
