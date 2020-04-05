@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upPosition: {fileID: 893149426}
+  levelWinning: {fileID: 0}
 --- !u!61 &5747204430441658466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -173,4 +174,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5

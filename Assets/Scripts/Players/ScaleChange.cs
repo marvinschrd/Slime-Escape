@@ -49,14 +49,15 @@ public class ScaleChange : MonoBehaviour
                 break;
             case State.GROWING:
                 Debug.Log("growing");
+                body.mass = bigMass;
+                Debug.Log(body.mass);
                 Growing();
-                if(transform.localScale.x >=2.9)
+                if (transform.localScale.x >=2.9)
                 {
                     grownTimer -= Time.deltaTime;
                     grow = false;
                 }
                 isBig = true;
-                body.mass = bigMass;
                 if(grownTimer<=0)
                 {
                     shrinkSound.Play();
