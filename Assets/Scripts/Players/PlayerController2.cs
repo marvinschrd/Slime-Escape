@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController2 : MonoBehaviour
 {
     Rigidbody2D body;
+    Collider coll;
     Vector2 direction;
     [SerializeField] float jumpHeight;
     bool canJump = false;
@@ -15,7 +16,7 @@ public class PlayerController2 : MonoBehaviour
     float horizontalSpeed;
     bool facingRight = false;
     bool facingLeft = true;
-
+    private bool isMoving;
     [SerializeField] ParticleSystem particle;
 
     [SerializeField] AudioSource jumpSound;
@@ -25,6 +26,8 @@ public class PlayerController2 : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        coll = GetComponent<Collider>();
+        
     }
 
     enum State
@@ -75,7 +78,7 @@ public class PlayerController2 : MonoBehaviour
         if (!canJump)
         {
             particle.gameObject.SetActive(false);
-        }
+        }  
     }
         void jump()
     {
