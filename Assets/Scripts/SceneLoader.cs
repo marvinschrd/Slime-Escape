@@ -34,6 +34,14 @@ public class SceneLoader : MonoBehaviour
         _spriteRenderer.color=Color.red;
         panelWin.SetActive(true);
     }
+
+    public void LoadLevel()
+    {
+        Debug.Log("I have been clicked ");
+        SceneManager.LoadScene(nextLevel);
+        SceneManager.UnloadSceneAsync(currentLevel);
+
+    }
     
 
     
