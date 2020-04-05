@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/testScene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/testScene2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +163,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Button.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="613">
               <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
               <folding>
                 <marker date="1586095819886" expanded="false" signature="6:78" ph="..." />
@@ -379,12 +378,12 @@
       <workItem from="1581430673720" duration="1233000" />
       <workItem from="1581515448254" duration="1430000" />
       <workItem from="1585925954160" duration="1833000" />
-      <workItem from="1586085531256" duration="3534000" />
+      <workItem from="1586085531256" duration="4130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7012000" />
+    <option name="totallyTimeSpent" value="7608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Button.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="613">
           <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
           <folding>
             <marker date="1586095819886" expanded="false" signature="6:78" ph="..." />

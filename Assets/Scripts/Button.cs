@@ -23,7 +23,7 @@ public class Button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player1" || other.tag == "Player2" || other.tag == "Box")
+        if (other.tag == "Player" || other.tag == "Player2" || other.tag == "Box")
         {
             GetDown();
         }
@@ -76,7 +76,7 @@ public class Button : MonoBehaviour
         //        twoButtonDoor.ButtonUnPressed();
         //    }
         //}
-        if (collision.tag == "Player1" || collision.tag == "Player2" || collision.tag == "Box")
+        if (collision.tag == "Player" || collision.tag == "Player2" || collision.tag == "Box")
         {
             GetUp();
         }
