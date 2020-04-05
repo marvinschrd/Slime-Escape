@@ -204,17 +204,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <marker date="1586106788768" expanded="false" signature="6:127" ph="..." />
-                <marker date="1586106788768" expanded="true" signature="169:1206" ph="{...}" />
-                <marker date="1586106788768" expanded="true" signature="505:1003" ph="{...}" />
-                <marker date="1586106788768" expanded="true" signature="554:602" ph="{...}" />
-                <marker date="1586106788768" expanded="true" signature="646:694" ph="{...}" />
-                <marker date="1586106788768" expanded="true" signature="723:787" ph="{...}" />
-                <marker date="1586106788768" expanded="true" signature="796:922" ph="/* if(player1&amp;&amp;player2&amp;&amp;currentLevel==&quot;scene3&quot;) ... */" />
-                <marker date="1586106788768" expanded="true" signature="1032:1183" ph="{...}" />
+                <marker date="1586106945629" expanded="false" signature="6:127" ph="..." />
+                <marker date="1586106945629" expanded="true" signature="169:2127" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="505:1003" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="554:602" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="646:694" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="723:787" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="796:922" ph="/* if(player1&amp;&amp;player2&amp;&amp;currentLevel==&quot;scene3&quot;) ... */" />
+                <marker date="1586106945629" expanded="true" signature="1032:1140" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1169:1277" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1306:1414" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1443:1551" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1580:1688" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1717:1825" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1854:1962" ph="{...}" />
+                <marker date="1586106945629" expanded="true" signature="1991:2099" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -286,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="305" />
     <option name="width" value="1123" />
     <option name="height" value="1050" />
@@ -374,12 +381,12 @@
       <workItem from="1581430673720" duration="1233000" />
       <workItem from="1581515448254" duration="1430000" />
       <workItem from="1585925954160" duration="1833000" />
-      <workItem from="1586085531256" duration="6360000" />
+      <workItem from="1586085531256" duration="6620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9838000" />
+    <option name="totallyTimeSpent" value="10098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,7 +399,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -670,17 +676,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <marker date="1586106788768" expanded="false" signature="6:127" ph="..." />
-            <marker date="1586106788768" expanded="true" signature="169:1206" ph="{...}" />
-            <marker date="1586106788768" expanded="true" signature="505:1003" ph="{...}" />
-            <marker date="1586106788768" expanded="true" signature="554:602" ph="{...}" />
-            <marker date="1586106788768" expanded="true" signature="646:694" ph="{...}" />
-            <marker date="1586106788768" expanded="true" signature="723:787" ph="{...}" />
-            <marker date="1586106788768" expanded="true" signature="796:922" ph="/* if(player1&amp;&amp;player2&amp;&amp;currentLevel==&quot;scene3&quot;) ... */" />
-            <marker date="1586106788768" expanded="true" signature="1032:1183" ph="{...}" />
+            <marker date="1586106945629" expanded="false" signature="6:127" ph="..." />
+            <marker date="1586106945629" expanded="true" signature="169:2127" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="505:1003" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="554:602" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="646:694" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="723:787" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="796:922" ph="/* if(player1&amp;&amp;player2&amp;&amp;currentLevel==&quot;scene3&quot;) ... */" />
+            <marker date="1586106945629" expanded="true" signature="1032:1140" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1169:1277" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1306:1414" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1443:1551" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1580:1688" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1717:1825" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1854:1962" ph="{...}" />
+            <marker date="1586106945629" expanded="true" signature="1991:2099" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -142,6 +142,17 @@ MonoBehaviour:
   currentLevel: SceneMenu
   _spriteRenderer: {fileID: 0}
   panelWin: {fileID: 0}
+  levels:
+  - Level1
+  - Level2
+  - Level3
+  - Level4
+  - Level5
+  - Level6
+  - Level7
+  - Level8
+  - Level9
+  - Level10
 --- !u!225 &184244229
 CanvasGroup:
   m_ObjectHideFlags: 0
