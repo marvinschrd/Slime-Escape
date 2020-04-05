@@ -13,8 +13,11 @@
             <e p="freeCamera.cs" t="Include" />
           </e>
           <e p="cameraMover.cs" t="Include" />
-          <e p="Door.cs" t="Include" />
-          <e p="door1.cs" t="Include" />
+          <e p="Doors" t="Include">
+            <e p="Door.cs" t="Include" />
+            <e p="door1.cs" t="Include" />
+            <e p="TwoButtonsDoor.cs" t="Include" />
+          </e>
           <e p="lever.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="objects" t="Include">
