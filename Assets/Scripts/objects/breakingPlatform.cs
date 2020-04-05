@@ -52,7 +52,7 @@ public class breakingPlatform : MonoBehaviour
                 break;
             case State.INVISIBLE:
                 breakingTimer -= Time.deltaTime;
-                Debug.Log(breakingTimer);
+               // Debug.Log(breakingTimer);
                 if(breakingTimer<=0)
                 {
                     Debug.Log("setToFalse");
@@ -87,11 +87,11 @@ public class breakingPlatform : MonoBehaviour
         sprite.enabled = false;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         Rigidbody2D objectBody;
         objectBody = collision.gameObject.GetComponent<Rigidbody2D>();
-        currentMassLoad += objectBody.mass;
+        currentMassLoad = objectBody.mass;
     }
 
     private void OnCollisionExit2D(Collision2D collision)

@@ -77,7 +77,7 @@ public class TwoButtonsDoor : MonoBehaviour
 
     void CheckButtons()
     {
-        Debug.Log(buttonsPressed);
+       // Debug.Log(buttonsPressed);
         if (fisrtButton&&seconButton)
         {
             Activate();
