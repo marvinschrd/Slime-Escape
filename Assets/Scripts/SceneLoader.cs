@@ -12,6 +12,7 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] String currentLevel;
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private GameObject panelWin;
+    [SerializeField] private string[] levels;
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag=="Player")
@@ -37,11 +38,46 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadLevel()
     {
-        Debug.Log("I have been clicked ");
-        SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(levels[0]);
         SceneManager.UnloadSceneAsync(currentLevel);
-
     }
+    public void LoadLevel2()
+    {
+        SceneManager.LoadScene(levels[1]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel3()
+    {
+        SceneManager.LoadScene(levels[2]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel4()
+    {
+        SceneManager.LoadScene(levels[3]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel5()
+    {
+        SceneManager.LoadScene(levels[4]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel6()
+    {
+        SceneManager.LoadScene(levels[5]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel7()
+    {
+        SceneManager.LoadScene(levels[6]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel8()
+    {
+        SceneManager.LoadScene(levels[7]);
+        SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    
+    
     
 
     
