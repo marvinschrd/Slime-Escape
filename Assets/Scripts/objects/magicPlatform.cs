@@ -13,6 +13,8 @@ public class magicPlatform : MonoBehaviour
     Shrinking shrinking;
     ScaleChange scaleChange;
 
+    SpriteRenderer sprite;
+
     Vector3 growingScale;
     Vector3 shrinkingScale;
     Vector3 normalScale;
@@ -28,6 +30,7 @@ public class magicPlatform : MonoBehaviour
         normalScale = transform.localScale;
         growingScale = new Vector3(normalScale.x * 2.5f, normalScale.y, normalScale.z);
         shrinkingScale = new Vector3(normalScale.x /2, normalScale.y, normalScale.z);
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -117,14 +120,17 @@ public class magicPlatform : MonoBehaviour
     void Grow()
     {
         transform.localScale = Vector3.Lerp(transform.localScale, growingScale, Time.deltaTime);
+        sprite.color = Color.blue;
     }
 
     void BackToNormal()
     {
         transform.localScale = Vector3.Lerp(transform.localScale, normalScale, Time.deltaTime);
+        sprite.color = Color.white;
     }
     void Shrink()
     {
         transform.localScale = Vector3.Lerp(transform.localScale, shrinkingScale, Time.deltaTime);
+        sprite.color = Color.green;
     }
 }

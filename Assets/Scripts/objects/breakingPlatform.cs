@@ -41,12 +41,14 @@ public class breakingPlatform : MonoBehaviour
             case State.NORMAL:
 
                 // platform.SetActive(true);
+                sprite.color = Color.white;
                 collider.enabled = true;
                 sprite.enabled = true;
                 breakingTimer = breakingTime;
                 CheckLoad();
                 break;
             case State.BREAKING:
+                sprite.color = Color.red;
                 anim.SetBool("goingToBreak", true);
                 state = State.INVISIBLE;
                 break;
