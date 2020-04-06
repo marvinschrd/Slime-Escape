@@ -39,43 +39,66 @@ public class SceneLoader : MonoBehaviour
     public void LoadLevel()
     {
         SceneManager.LoadScene(levels[0]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+        //SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel2()
     {
         SceneManager.LoadScene(levels[1]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+       // SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel3()
     {
         SceneManager.LoadScene(levels[2]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+       // SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel4()
     {
         SceneManager.LoadScene(levels[3]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+       // SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel5()
     {
         SceneManager.LoadScene(levels[4]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+       // SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel6()
     {
         SceneManager.LoadScene(levels[5]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+        //SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel7()
     {
         SceneManager.LoadScene(levels[6]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+        //SceneManager.UnloadSceneAsync(currentLevel);
     }
     public void LoadLevel8()
     {
         SceneManager.LoadScene(levels[7]);
-        SceneManager.UnloadSceneAsync(currentLevel);
+       // SceneManager.UnloadSceneAsync(currentLevel);
     }
+    public void LoadLevel9()
+    {
+        SceneManager.LoadScene(levels[8]);
+       // SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel10()
+    {
+        SceneManager.LoadScene(levels[9]);
+       // SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    public void LoadLevel11()
+    {
+        SceneManager.LoadScene(levels[10]);
+        //SceneManager.UnloadSceneAsync(currentLevel);
+    }
+
+    public void LoadLevel12()
+    {
+        SceneManager.LoadScene(levels[11]);
+        //SceneManager.UnloadSceneAsync(currentLevel);
+    }
+    
+    
     
     
     
