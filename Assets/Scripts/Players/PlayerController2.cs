@@ -27,7 +27,8 @@ public class PlayerController2 : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider>();
-        
+        Time.timeScale = 1;
+
     }
 
     enum State

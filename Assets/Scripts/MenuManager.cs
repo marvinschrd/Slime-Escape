@@ -9,7 +9,6 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] GameObject panelMenuPause;
     [SerializeField] GameObject panelMenuWin;
-    [SerializeField] GameObject panelMainMenu;
     [SerializeField] GameObject panelLevelSelect;
     [SerializeField] String reloadScene;
     [SerializeField] String mainMenuScene;
@@ -43,11 +42,6 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(mainMenuScene);
         Time.timeScale = 0;
-    }
-    public void UnloadMainMenu()
-    {
-        panelMainMenu.gameObject.SetActive(false);
-        Time.timeScale = 1;
     }
     public void LoadMenuPause()
     {
