@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fa5411a7-4ff2-4e95-9d9d-4a3775c6f0ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.co-op-plateformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.co-op-plateformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level11.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level13.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,33 +77,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Button.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="368">
+              <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
               <folding>
-                <marker date="1586100587452" expanded="false" signature="6:78" ph="..." />
-                <marker date="1586100587452" expanded="true" signature="115:3177" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="349:410" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="468:489" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="542:680" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="631:674" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="736:1643" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="751:1180" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
-                <marker date="1586100587452" expanded="true" signature="1229:1349" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="1390:1493" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="1534:1637" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="1698:2689" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="1713:2104" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
-                <marker date="1586100587452" expanded="true" signature="2199:2240" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="2289:2378" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="2419:2526" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="2567:2674" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="2707:2948" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="2884:2942" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="2967:3175" ph="{...}" />
-                <marker date="1586100587452" expanded="true" signature="3109:3169" ph="{...}" />
+                <marker date="1586266249375" expanded="false" signature="6:78" ph="..." />
+                <marker date="1586266249375" expanded="true" signature="115:3177" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="349:410" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="468:489" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="542:680" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="631:674" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="736:1643" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="751:1180" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
+                <marker date="1586266249375" expanded="true" signature="1229:1349" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="1390:1493" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="1534:1637" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="1698:2689" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="1713:2104" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
+                <marker date="1586266249375" expanded="true" signature="2199:2240" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="2289:2378" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="2419:2526" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="2567:2674" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="2707:2948" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="2884:2942" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="2967:3175" ph="{...}" />
+                <marker date="1586266249375" expanded="true" signature="3109:3169" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -164,7 +149,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
@@ -321,10 +306,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Players/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/objects/ArrowDispenser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Button.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Players/PlayerController2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Button.cs" />
       </list>
     </option>
   </component>
@@ -422,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15594000" />
+    <option name="totallyTimeSpent" value="16923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,36 +515,6 @@
             <marker date="1585707611735" expanded="true" signature="855:896" ph="{...}" />
             <marker date="1585707611735" expanded="true" signature="955:1052" ph="{...}" />
             <marker date="1585707611735" expanded="true" signature="1005:1046" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Button.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <marker date="1586100587452" expanded="false" signature="6:78" ph="..." />
-            <marker date="1586100587452" expanded="true" signature="115:3177" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="349:410" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="468:489" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="542:680" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="631:674" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="736:1643" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="751:1180" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
-            <marker date="1586100587452" expanded="true" signature="1229:1349" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="1390:1493" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="1534:1637" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="1698:2689" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="1713:2104" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
-            <marker date="1586100587452" expanded="true" signature="2199:2240" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="2289:2378" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="2419:2526" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="2567:2674" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="2707:2948" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="2884:2942" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="2967:3175" ph="{...}" />
-            <marker date="1586100587452" expanded="true" signature="3109:3169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -769,6 +724,36 @@
             <marker date="1586263961698" expanded="true" signature="2311:2421" ph="{...}" />
             <marker date="1586263961698" expanded="true" signature="2451:2562" ph="{...}" />
             <marker date="1586263961698" expanded="true" signature="2593:2704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Button.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+          <folding>
+            <marker date="1586266249375" expanded="false" signature="6:78" ph="..." />
+            <marker date="1586266249375" expanded="true" signature="115:3177" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="349:410" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="468:489" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="542:680" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="631:674" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="736:1643" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="751:1180" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
+            <marker date="1586266249375" expanded="true" signature="1229:1349" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="1390:1493" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="1534:1637" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="1698:2689" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="1713:2104" ph="/* if (collision.gameObject.tag == &quot;Player&quot; || collision.gameObject.tag == &quot;Player2&quot; || collision.gameObject.tag  ... */" />
+            <marker date="1586266249375" expanded="true" signature="2199:2240" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="2289:2378" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="2419:2526" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="2567:2674" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="2707:2948" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="2884:2942" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="2967:3175" ph="{...}" />
+            <marker date="1586266249375" expanded="true" signature="3109:3169" ph="{...}" />
           </folding>
         </state>
       </provider>
