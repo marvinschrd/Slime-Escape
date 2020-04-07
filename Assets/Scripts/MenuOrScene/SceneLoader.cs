@@ -25,16 +25,19 @@ public class SceneLoader : MonoBehaviour
         }
         if(player1&&player2)
         { 
-        SceneManager.LoadScene(nextLevel);
+            _spriteRenderer.color=Color.red;
+            SceneManager.LoadScene(nextLevel);
         }
         //if(player1&&player2&&currentLevel=="scene3")
         //{
 
         //}
        // SceneManager.UnloadSceneAsync(currentLevel);
-        _spriteRenderer.color=Color.red;
+        
         panelWin.SetActive(true);
     }
+    
+    
 
     public void LoadLevel()
     {
