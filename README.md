@@ -2,7 +2,7 @@
 
 ## Points positifs
 * Le jeu fonctionne, nous avons réussi à implémenter des mécaniques et des puzzles qui demandent l'action des deux joueurs pour être résolus.
-* Le jeu à pu comporter plus d'une dizaine de niveaux.
+* Le jeu a pu comporter plus d'une dizaine de niveaux.
 * Nous avons réussi, surtout vers la fin, à bien coordoner nos efforts
 
 ## Points négatifs
