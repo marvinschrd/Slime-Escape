@@ -7,18 +7,13 @@ public class breakingPlatform : MonoBehaviour
     float currentMassLoad = 0;
     [SerializeField] float maximumLoad = 0;
     bool breaking = false;
-
     [SerializeField] float breakingTime = 0;
     float breakingTimer = 0;
-    // Start is called before the first frame update
-
     BoxCollider2D collider;
-   // GameObject platform;
     SpriteRenderer sprite;
     Animator anim;
     void Start()
     {
-        // platform = gameObject;
         collider = gameObject.GetComponent<BoxCollider2D>();
         sprite = gameObject.GetComponent<SpriteRenderer>();
         anim = gameObject.GetComponent<Animator>();
@@ -32,15 +27,12 @@ public class breakingPlatform : MonoBehaviour
     }
 
     State state = State.NORMAL;
-
-    // Update is called once per frame
     void Update()
     {
         switch(state)
         {
             case State.NORMAL:
 
-                // platform.SetActive(true);
                 sprite.color = Color.white;
                 collider.enabled = true;
                 sprite.enabled = true;
@@ -54,10 +46,8 @@ public class breakingPlatform : MonoBehaviour
                 break;
             case State.INVISIBLE:
                 breakingTimer -= Time.deltaTime;
-               // Debug.Log(breakingTimer);
                 if(breakingTimer<=0)
                 {
-                    Debug.Log("setToFalse");
                     anim.SetBool("goingToBreak", false);
                     state = State.NORMAL;
                 }
@@ -84,7 +74,6 @@ public class breakingPlatform : MonoBehaviour
 
     void DisablePlatform()
     {
-        // platform.SetActive(false);
         collider.enabled = false;
         sprite.enabled = false;
     }

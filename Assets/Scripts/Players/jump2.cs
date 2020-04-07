@@ -6,16 +6,13 @@ public class jump2 : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-
     [SerializeField] float speed;
     [SerializeField] float jumpForce;
     private float moveInput;
-
     private bool isGrounded;
     [SerializeField] Transform feetPos;
     [SerializeField] LayerMask whatIsGround;
     [SerializeField] float checkRadius;
-
     private float jumpTimeCounter;
     [SerializeField] float jumpTime;
     private bool isJumping;

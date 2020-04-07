@@ -9,13 +9,9 @@ public class TwoButtonsDoor : MonoBehaviour
     Vector3 movePosition;
     bool activated = false;
     bool closed = false;
-
     bool fisrtButton = false;
     bool seconButton = false;
-
     int buttonsPressed = 0;
-
-    // Start is called before the first frame update
     [SerializeField] AudioSource levelWinning;
     void Start()
     {
@@ -30,7 +26,6 @@ public class TwoButtonsDoor : MonoBehaviour
         CLOSING
     }
     State state = State.IDLE;
-    // Update is called once per frame
     void Update()
     {
         CheckButtons();
@@ -77,7 +72,6 @@ public class TwoButtonsDoor : MonoBehaviour
 
     void CheckButtons()
     {
-       // Debug.Log(buttonsPressed);
         if (fisrtButton&&seconButton)
         {
             Activate();

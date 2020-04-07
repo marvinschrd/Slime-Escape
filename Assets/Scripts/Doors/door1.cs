@@ -9,9 +9,6 @@ public class door1 : MonoBehaviour
     Vector3 movePosition;
     bool activated = false;
     bool closed = false;
-
-   
-    // Start is called before the first frame update
     [SerializeField] AudioSource levelWinning;
     void Start()
     {
@@ -26,10 +23,9 @@ public class door1 : MonoBehaviour
         CLOSING
     }
     State state = State.IDLE;
-    // Update is called once per frame
+   
     void Update()
     {
-
         switch(state)
         {
             case State.IDLE:

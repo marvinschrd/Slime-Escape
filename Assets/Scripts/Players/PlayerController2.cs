@@ -7,35 +7,27 @@ public class PlayerController2 : MonoBehaviour
     Rigidbody2D body;
     Collider coll;
     Vector2 direction;
-    [SerializeField] float jumpHeight;
     bool canJump = false;
-
     [SerializeField] float speed = 3;
-
     Animator anim;
     float horizontalSpeed;
     bool facingRight = false;
     bool facingLeft = true;
     private bool isMoving;
     [SerializeField] ParticleSystem particle;
-
     [SerializeField] AudioSource jumpSound;
-
-    // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider>();
         Time.timeScale = 1;
-
     }
 
     enum State
     {
         IDLE,
         MOVING
-
     }
 
     State state = State.IDLE;
@@ -51,10 +43,8 @@ public class PlayerController2 : MonoBehaviour
         direction = new Vector2(Input.GetAxis("HorizontalPlayer2") * speed, body.velocity.y);
         horizontalSpeed = Input.GetAxis("HorizontalPlayer2");
         anim.SetFloat("speed", Mathf.Abs(horizontalSpeed));
-       // jump();
         switch (state)
         {
-
             case State.IDLE:
                 break;
             case State.MOVING:
@@ -80,15 +70,6 @@ public class PlayerController2 : MonoBehaviour
         {
             particle.gameObject.SetActive(false);
         }  
-    }
-        void jump()
-    {
-        if (Input.GetKeyDown("up") && canJump)
-        {
-            jumpSound.Play();
-            body.velocity = new Vector2(body.velocity.x, jumpHeight);
-            anim.SetBool("isJumping", true);
-        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

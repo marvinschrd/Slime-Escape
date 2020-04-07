@@ -9,20 +9,12 @@ public class Health : MonoBehaviour
     string sceneName;
     Scene currentScene;
 
-    
-
-    // Start is called before the first frame update
+  
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
         currentScene = SceneManager.GetActiveScene();
         sceneName = currentScene.name;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void Death()
@@ -33,7 +25,6 @@ public class Health : MonoBehaviour
 
     void ReloadScene()
     {
-        // sceneLoader.DeathReload();
         SceneManager.LoadScene(sceneName);
     }
 

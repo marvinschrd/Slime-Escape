@@ -93,7 +93,6 @@ public class jump : MonoBehaviour
                 {
                     rb.velocity = Vector2.up * jumpForce;
                     jumpTimeCounter -= Time.deltaTime;
-                    // Debug.Log(jumpTimeCounter);
                 }
                 else
                 {
@@ -111,7 +110,6 @@ public class jump : MonoBehaviour
                 {
                     rb.velocity = Vector2.up * jumpForce;
                     jumpTimeCounter -= Time.deltaTime;
-                    // Debug.Log(jumpTimeCounter);
                 }
                 else
                 {

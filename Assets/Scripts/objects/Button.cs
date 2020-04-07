@@ -9,16 +9,9 @@ public class Button : MonoBehaviour
     SpriteRenderer sprite;
     private int i = 0;
     bool isPressed = false;
-    // Start is called before the first frame update
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -31,18 +24,6 @@ public class Button : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        //if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Player2" || collision.gameObject.tag == "Block")
-        //{
-        //    if (gameObject.tag == "Button")
-        //    {
-        //        Debug.Log("button");
-        //        door.Activate();
-        //    }
-        //    if (gameObject.tag == "TwoButton")
-        //    {
-        //        twoButtonDoor.ButtonPressed();
-        //    }
-        //}
         
         if (gameObject.tag == "Button")
         {
@@ -65,17 +46,6 @@ public class Button : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        //if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Player2" || collision.gameObject.tag == "Block")
-        //{
-        //    if (gameObject.tag == "Button")
-        //    {
-        //        door.Closing();
-        //    }
-        //    if (gameObject.tag == "TwoButton")
-        //    {
-        //        twoButtonDoor.ButtonUnPressed();
-        //    }
-        //}
         if (collision.tag == "Player" || collision.tag == "Player2" || collision.tag == "Box")
         {
             GetUp();

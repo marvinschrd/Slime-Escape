@@ -6,15 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D body;
     Vector2 direction;
-
-    [SerializeField]float jumpHeight;
     bool canJump = false;
-    float jumpTime = 0;
-    [SerializeField] float jumpTimer = 0;
     bool isJumping = false;
-
     [SerializeField]float speed =3;
-
     Animator anim;
     float horizontalSpeed;
     bool facingRight = true;
@@ -34,7 +28,6 @@ public class PlayerController : MonoBehaviour
     {
         IDLE,
         MOVING
-
     }
     State state = State.IDLE;
     // Update is called once per frame
@@ -47,7 +40,6 @@ public class PlayerController : MonoBehaviour
         direction = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
         horizontalSpeed = Input.GetAxis("Horizontal");
         anim.SetFloat("speed", Mathf.Abs(horizontalSpeed));
-      //  jump();
         switch (state)
         {
             case State.IDLE:
@@ -74,37 +66,6 @@ public class PlayerController : MonoBehaviour
         if (!canJump)
         {
             particle.gameObject.SetActive(false);
-        }
-    }
-    void jump()
-    {
-            if(Input.GetKeyDown("w")&& canJump)
-            {
-            jumpSound.Play();
-            anim.SetBool("isJumping", true);
-            isJumping = true;
-            jumpTime = jumpTimer;
-               // body.velocity = new Vector2(body.velocity.x, jumpHeight);
-            body.velocity = Vector2.up * jumpHeight;
-            }
-            if(Input.GetKey("w")==isJumping)
-            {
-                 if (jumpTime > 0)
-                 {
-                    //body.velocity = new Vector2(body.velocity.x, jumpHeight);
-                body.velocity = Vector2.up * jumpHeight;
-
-                jumpTime -= Time.deltaTime;
-                 }
-                 else
-                 {
-                    isJumping = false;
-                 }
-            }
-            if(Input.GetKeyUp("w"))
-        {
-            Debug.Log("nojump");
-            isJumping = false;
         }
     }
     private void OnTriggerStay2D(Collider2D collision)

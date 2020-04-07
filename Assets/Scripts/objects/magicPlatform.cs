@@ -6,20 +6,15 @@ public class magicPlatform : MonoBehaviour
 {
     bool isSmall = false;
     bool isBig = false;
-
     bool checkIfSmall = false;
     bool checkIfBig = false;
-
     Shrinking shrinking;
     ScaleChange scaleChange;
-
     SpriteRenderer sprite;
-
     Vector3 growingScale;
     Vector3 shrinkingScale;
     Vector3 normalScale;
     bool grow = false;
-
     bool player1On = false;
     bool player2On = false;
     // Start is called before the first frame update
@@ -36,23 +31,11 @@ public class magicPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(checkIfSmall)
-        //{
-        //    isSmall = shrinking.ShowState();
-        //}
-        //if(isSmall)
-        //{
-        //   Shrink();
-        //}
         isSmall = shrinking.ShowState();
         isBig = scaleChange.ShowState();
         switch(state)
         {
             case State.NORMAL:
-                //if(Vector2.Distance(transform.localScale,normalScale)<=0.1f)
-                //{
-
-                //}
                 BackToNormal();
                 if(player1On&&isBig)
                 {
@@ -93,14 +76,10 @@ public class magicPlatform : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             player1On = true;
-           // scaleChange = collision.gameObject.GetComponent<ScaleChange>();
-           //Grow();
         }
         if (collision.gameObject.tag == "Player2")
         {
             player2On = true;
-            //shrinking = collision.gameObject.GetComponent<Shrinking>();
-           // Grow();
         }
 
     }
