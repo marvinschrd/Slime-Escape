@@ -3976,12 +3976,12 @@ PrefabInstance:
     - target: {fileID: 8476914482107372799, guid: d3dae1fdf2a15ce4f9967d56dd8aa71d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.357839
+      value: 14.45
       objectReference: {fileID: 0}
     - target: {fileID: 8476914482107372799, guid: d3dae1fdf2a15ce4f9967d56dd8aa71d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69202065
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 8476914482107372799, guid: d3dae1fdf2a15ce4f9967d56dd8aa71d,
         type: 3}
@@ -4483,6 +4483,7 @@ MonoBehaviour:
   panelMenuPause: {fileID: 1667284886}
   panelMenuWin: {fileID: 0}
   panelLevelSelect: {fileID: 0}
+  panelCredits: {fileID: 0}
   reloadScene: SampleScene
   mainMenuScene: SceneMenu
 --- !u!114 &1378305690
